@@ -94,6 +94,11 @@
 	 
 	}
 	
+	#blankSpace{
+		display: block;
+		height: 500px;
+	}
+	
 	div.middle {
 		
 		padding-top:50px;
@@ -118,7 +123,7 @@
 	}
 	#p1 {
 		font-family:Arial, Helvetica, sans-serif;
-		
+		float:left;
 		font-size:15px;
 	}
 	
