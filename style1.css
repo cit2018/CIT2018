@@ -19,15 +19,15 @@
 	display:inline-block;
 	position:fixed;
 	background-color:#eeeeee;
-	width:950px;
+	width:960px;
 	margin:0px;
 	padding:0px 5px 5px 0px;
 
 	height: 205px;
 	clear:right;
 	
-}	
-
+	}	
+	
 	div .menu {
 	clear:left;
 	display:inline-block;
@@ -40,6 +40,8 @@
 	
 	
 }
+
+
 	nav a {
 	 display: inline-block;
     background-color: rgb(67,70,75);
@@ -86,7 +88,8 @@
 	div.paraclass {
 	 display:inline-block;
 /* 	padding:150px 200px 200px 100px;  */
-	padding:5px
+	padding:5px;
+	
 	 margin:0px;
 	 background-color:#eeeeee;
 	 margin:0 Auto;
@@ -118,9 +121,23 @@
 	}
 	#p1 {
 		font-family:Arial, Helvetica, sans-serif;
-		
+		float:left;
 		font-size:15px;
 	}
+	
+	#blankspace{
+		
+		dispaly:block;
+		height:500px;
+	}
+	#email{
+		dispaly:block;
+		
+		padding-top:100px;
+		margin-left:300px;
+	}
+	
+	
 	
 	.mediaContainer audio{
 	
@@ -139,21 +156,17 @@
 		width:110px;
 	}
 
-	/* div .bottom #cp{
-		text-transform:uppercase;
-		font-size:15px;
-	} */
-	div .paraclass #ghlist{
+	
+	div .paraclass #ghlist,#pwlist,#gtlist{
 		text-transform: capitalize;
-		/*  product list page*/
+		
+
 	}
 	
-	div .paraclass #pwlist{
-		text-transform: capitalize;
-		/*  product list page*/
+	div .paraclass #border{
+		border:5px rgb(135,206,235) solid;
+		border-style:rounded;
+		
 	}
-	div .paraclass #gtlist{
-		text-transform: capitalize;
-		/*  product list page*/
-	}
+	
 	

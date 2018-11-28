@@ -77,31 +77,35 @@
 <!-- middle div-->
 
 <div class="paraclass">
-			
+				<div id ="border">
 				<p align="center"> 
-				<a href="./General_Hardware.html">GeneralHardware</a><br/><!-- General hardware tools link  -->
-				<br/><br/>
-				<img src="./Images/StanleyClawHammer.jpg" alt="StanleyClawHammer" style="width:20%" /></a>
-				<img src="./Images/Stanley20pc.jpg"  alt="Stanley20pc" style="width:20%" />
-				<img src="./Images/StanleyBitSet.jpg"  alt="StanleyBitSet" style="width:20%" />
-				<img src="./Images/TrojanWrench.jpg"  alt="TrojanWrench" style="width:20%" />
-				</p>
-				<p align="center">
-				<a href="./Power_Tools.html"align="left">Power Tools</a><br/><!-- Power tools link  -->
-				<br/><br/>
-				<img src="./Images/RyobiImpact.jpg"  alt="RyobiImpact" style="width:20%" />
-				<img src="./Images/RyobiCircular.jpg"  alt="RyobiCircular" width="20%" />
-				<img src="./Images/RyobiJigsaw.png"  alt="RyobiJigsaw" style="width:20%" />
-				<img src="./Images/RyobiBandsaw.jpg"  alt="RyobiBandsaw" style="width:20%" />
-				</p>
-				<p align="center">
-				<a href="./Garden_Tools.html">Garden Tools</a><br/><!-- Garden tools link  -->
-				<br/><br/>
-				<img src="./Images/RyobiBlowerVac.png"  alt="RyobiBlowerVac" style="width:20%" />
-				<img src="./Images/RyobiBrushcutter.jpg"  alt="RyobiBrushcutter"style="width:20%" />
-				<img src="./Images/RyobiPruner.png"  alt="RyobiPruner" style="width:20%" />
-				<img src="./Images/VictaLawnmower.jpg"  alt="VictaLawnmower" style="width:20%" />
-				</p>
+				<a href="./General_Hardware.html">GeneralHardware</a><br/>
+					<br/><br/>
+					<span>StanleyClawHammer $48.90</span><img src="./Images/StanleyClawHammer.jpg" alt="StanleyClawHammer" style="width:20%" /></a> <br/>
+					<span>Stanley20pc $28.99</span><img src="./Images/Stanley20pc.jpg"  alt="Stanley20pc" style="width:20%" /><br/>
+					
+					<span>StanleyBitSet $29.80</span><img src="./Images/StanleyBitSet.jpg"  alt="StanleyBitSet" style="width:20%" /><br/>
+					<span>TrojanWrench $17.99</span><img src="./Images/TrojanWrench.jpg"  alt="TrojanWrench" style="width:20%" /><br/>
+					</p>
+					<p align="center">
+					<a href="./Power_Tools.html">Power Tools</a><br/>
+					<br/><br/>
+					<span>RyobiImpact $153.00</span><img src="./Images/RyobiImpact.jpg"  alt="RyobiImpact" style="width:20%" /><br/>
+					<span>RyobiCircular $115.00</span><img src="./Images/RyobiCircular.jpg"  alt="RyobiCircular" width="20%" /><br/>
+					<span>RyobiJigsaw $89.00</span><img src="./Images/RyobiJigsaw.png"  alt="RyobiJigsaw" style="width:20%" /><br/>
+					<span>RyobiBandsaw $279.00</span><img src="./Images/RyobiBandsaw.jpg"  alt="RyobiBandsaw" style="width:20%" /><br/>
+					</p>
+					<p align="center">
+					<a href="./Garden_Tools.html">Garden Tools</a><br/>
+					<br/><br/>
+					<span> RyobiBlowerVac $44.00</span><img src="./Images/RyobiBlowerVac.png"  alt="RyobiBlowerVac" style="width:20%" /><br/>
+					<span>RyobiBrushcutter $219.00</span><img src="./Images/RyobiBrushcutter.jpg"  alt="RyobiBrushcutter"style="width:20%" /><br/>
+					<span>RyobiPruner $173.00</span><img src="./Images/RyobiPruner.png"  alt="RyobiPruner" style="width:20%" /><br/>
+					<span>VictaLawnmower $702.00</span><img src="./Images/VictaLawnmower.jpg"  alt="VictaLawnmower" style="width:20%" /><br/>
+					</p>
+			</div>
+			</p>
+			
 				<a href="#top" target="_self" >Back to top</a>
 			</p>
 			
