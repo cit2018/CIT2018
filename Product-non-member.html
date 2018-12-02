@@ -3,56 +3,74 @@
 <HTML  lang="en">
 <HEAD>
 <title>GAP HARDWARE Non member</title>
-		<meta charset="UTF-8">
-		<link rel ="stylesheet" type="text/css" href ="style1.css">
+	<meta charset="UTF-8">
+	<link rel ="stylesheet" type="text/css" href ="style1.css">
+
+	<style type="text/css">
 	
-		<style type="text/css">
+	h4{color:blue;}
+
+	</style>
 		
-		h4{color:blue;}
-		</style>
+		
 </HEAD>
 <BODY>
 <div class="content"> 
 <header>
 
 
-	<div class ="logo"><img id ="logoimg" src=".\Images\GAPHardware.png" alt="AHlogo" style="width:110px"> 
-	
+	<div class ="logo"><img id ="logoimg" src="./Images/GAPHardware.png" alt="AHlogo" style="width:110px"> 
+	<span  style="font-size:35px;margin-left:150px;"> GAP HARDWARE STORE</span>
 	
 	</div><!--logo-->
 
 	
 	<div class ="menu">
 		<nav>
-			
-				<a href ="./home.html">Home</a >
-				<a href="./AboutUs.html">About Us</a>
-				<a href="./ContactUs.html"> Contact Us</a>
-				<a href="./Product-non-member.html">Products</a> 
-				<a href="./Help.html"> Help</a>
-				<a href="./Login.html" style="float:right;"> Login</a>
+			<a href ="./home.html">Home</a >
+			<a href="./AboutUs.html">About Us</a>
+			<a href="./ContactUs.html"> Contact Us</a>
+			<a href="./Product-non-member.html">Products</a> 
+			<a href="./Help.html"> Help</a>
+			<a href="./Login.html" style="float:right;"> Login</a>
 		</nav>
 	</div><!--menu-->
 
 </header>
-<div class="middle"> <p> </p><div><p> </p><div><p> <div></div></p> </div> <p> </p> <div></div></div><p></p><p> </p>  </div>
+<div class="middle">  
+	<p> </p>
+		<div>
+			<p> </p>
+			<div> 
+				<div></div>  
+				<div>
+					<p> </p>
+				</div>
+				<p></p>
+				<p> </p>
+			</div>
+		</div>
+		<p></p>
+
 
 <!-- middle div-->
 <div class="paraclass">
-			 <img src="./Images/Login.jpg" alt="loginpageimg" style="width:100%;height:200px" />
+			<!--  <img src="./Images/Login.jpg" alt="loginpageimg" style="width:100%;height:200px" /> -->
 			
 			<br/><br/>
-			<h4 align="center">Please login to check our Product price</h4>
-			<form method="GET" action="./validatetest.php" align="center">
+			<div id="login">
+			<h4 >Please login to check our Product price</h4>
+			<form method="GET" action="./validatetest.php">
 				
 				ABN:&emsp;&emsp;&emsp;&emsp;<input type="text" name="abn" id="abn"><br/><br/> 
 				Username:&emsp;<input type="text" name="username" id="username"><br/><br/>
-				Password:&emsp;<input type="text" name="password" id="password"><br/></br>
+				Password:&emsp;<input type="text" name="password" id="password"><br/><br/>
 				
 				
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="submit" >&emsp;
-			<a href ="./signup.html">Not a member</a>
+			<a href ="./signup.html">Not a member</a>&emsp;<a href ="./forgotpass.html">Forgot password</a>
 			</form>
+			</div>
 			<!-- <a href="#top" target="_self" >Back to top</a> -->
 			<!-- APPLY A _self TARGET ATTRIBUTE -->
 </div><!-- paraclass div-->
@@ -60,12 +78,11 @@
 	
 <footer >
 
-		<div class ="bottom">
-
-		<p style="background-color:rgb(67,70,75); color:white;"> &copy; All Copy rights reserved
-		<!-- <p> &copy; All Copy rights reserved</p> -->
-		<img src="./Images/twitter.jpg" alt="twitter" style="width:30px"/>&emsp;<img src="./Images/fb.jpg" alt="fb" style="width:30px"/></p>
-		</div>
+	<div class ="bottom">
+	<p style="background-color:rgb(67,70,75); color:white;"> &copy; All Copy rights reserved
+	<!-- <p> &copy; All Copy rights reserved</p> -->
+	<img src="./Images/twitter.jpg" alt="twitter" style="width:30px"/>&emsp;<img src="./Images/fb.jpg" alt="fb" style="width:30px"/></p>
+	</div>
 </footer><!--footer-->
 </div>
 </div>

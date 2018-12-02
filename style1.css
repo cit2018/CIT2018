@@ -1,5 +1,4 @@
-	body 
-	{
+	body {
 		padding:0;
 		margin:0;
 		background-color: #eeeeee;
@@ -13,92 +12,126 @@
 		width:950px;
 		margin:0 auto;
 	}
+	
+	div h3, div h4 {
+		color:blue;
+	}
+	div .logo img	{
+		width:110px;
+	}
 
 
 	header {
-	display:inline-block;
-	position:fixed;
-	background-color:#eeeeee;
-	width:950px;
-	margin:0px;
-	padding:0px 5px 5px 0px;
+		display:inline-block;
+		position:fixed;
+		background-color:#eeeeee;
+		width:960px;
+		margin:0px;
+		padding:0px 5px 5px 0px;
 
-	height: 205px;
-	clear:right;
+		height: 205px;
+		clear:right;
 	
-}	
-
+	}	
+	
 	div .menu {
-	clear:left;
-	display:inline-block;
-	padding:0px 5px 5px 0px; 
-	margin:20px;
-	height:0px;
-	/* background-color:rgb(135,206,235); */
-	width:900px;
+		clear:left;
+		display:inline-block;
+		padding:0px 5px 5px 0px; 
+		margin:20px;
+		height:0px;
+		/* background-color:rgb(135,206,235); */
+		width:900px;
 	
-	
-	
-}
-	nav a {
-	 display: inline-block;
-    background-color: rgb(67,70,75);
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-	color:white;
-	border-right: 1px solid #bbb;
-	
-	
+	}
 
+
+	nav a {
+		
+		display: inline-block;
+		background-color: rgb(67,70,75);
+		text-align: center;
+		padding: 20px;
+		text-decoration: none;
+		color:white;
+		border-right: 1px solid #bbb;
+	
 	}
 	nav a:hover {
-    background-color:rgb(135,206,235) ;
-	color:rgb(67,70,75);
+		background-color:rgb(135,206,235) ;
+		color:rgb(67,70,75);
 	}
+	
 	nav a:last-child {
-	border-right: none;
+		border-right: none;	
 	}
+	
 	th,td {
 	
-	border: 2px solid black;
+		border: 2px solid black;
 	}
 
 	th {
-	background-color: gold;
+		background-color: gold;
 	}
 	table {
-	border-collapse: collapse;
-	background-color:white;
-	width:50%;
+		border-collapse: collapse;
+		background-color:white;
+		width:50%;
+	}
 	
-	}
-	#tableid {
-		position:left;
-	}
 
-	div .middle p{
+	div .middle p {
 		display:inline-block;
-		 background-color:white; 
+		background-color:white; 
 		
 	}
 	
-	div.paraclass {
-	 display:inline-block;
-/* 	padding:150px 200px 200px 100px;  */
-	padding:5px
-	 margin:0px;
-	 background-color:#eeeeee;
-	 margin:0 Auto;
-	 
-	 
-	}
 	
 	div.middle {
 		
 		padding-top:50px;
 	}
-	footer{
+	
+	div.paraclass {
+		
+		display:inline-block;
+	/* 	padding:150px 200px 200px 100px;  */
+		padding:5px;
+		margin:0px;
+		background-color:#eeeeee;
+		margin:0 Auto;
+	}
+	
+	div .paraclass #ghlist,#pwlist,#gtlist{
+		text-transform: capitalize;
+		
+	}
+	
+	div .paraclass #border	{
+		border:5px rgb(135,206,235) solid;
+		
+	}
+	div .paraclass img {
+		width:20%;
+		align-content:center;
+	}
+	div .paraclass p,h3,h2	{
+		
+		font-family:Arial, Helvetica, sans-serif;
+		align-content:center;
+		text-align:center;
+		
+	}
+	
+	
+	#p1 {
+		font-family:Arial, Helvetica, sans-serif;
+		float:left;
+		font-size:15px;
+	}
+	
+	footer	{
 		
 		text-align:center;
 		display:inline-block;
@@ -109,51 +142,43 @@
 		bottom: 0;
 		left: 0;
 	}
-	div.bottom{
+	div.bottom	{
+		
 		background-color: rgb(67,70,75);
 		color:rgb(135,206,235);
 		height:50px;
 		padding-top:10px;
 		
 	}
-	#p1 {
-		font-family:Arial, Helvetica, sans-serif;
+	
+	
+	#blankspace	{
 		
-		font-size:15px;
+		display:block;
+		height:500px;
 	}
 	
-	.mediaContainer audio{
-	
-	left: 0;
-	bottom:0;
-	width:20%;
-	
+	#email	{
+		display:block;
+		padding-top:100px;
+		margin-left:300px;
 	}
-
-	div h3, div h4
-	{
-		color:blue;
-	}
-	div .logo img
-	{
-		width:110px;
-	}
-
-	/* div .bottom #cp{
-		text-transform:uppercase;
-		font-size:15px;
+	/* #middleblankspace {
+		display:block;
+		height:250px;
+		
 	} */
-	div .paraclass #ghlist{
-		text-transform: capitalize;
-		/*  product list page*/
-	}
 	
-	div .paraclass #pwlist{
-		text-transform: capitalize;
-		/*  product list page*/
+	
+	.mediaContainer video	{
+		left: 0;
+		bottom:0;
+		width:50%;
+	
 	}
-	div .paraclass #gtlist{
-		text-transform: capitalize;
-		/*  product list page*/
-	}
+
+	
+
+	
+	
 	
